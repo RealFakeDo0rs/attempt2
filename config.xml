@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "mob.app.dev.camera"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+  <name>PhoneGap Camera App With Mapping</name>
+
+  <description>
+    Take pictures and see them on the map
+  </description>
+
+  <gap:platform name="android" />
+
+
+  <plugin name="cordova-plugin-camera" version="2"/>
+  <plugin name="cordova-plugin-geolocation"/>
+
+
+  <author href="frih1_16.worcestercomputing.com" email="frih1_16@uni.worc.ac.uk">Mobile Apps</author>
+
+
+</widget>
